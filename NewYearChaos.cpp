@@ -60,7 +60,6 @@ int main()
 {
     string t_temp;
     getline(cin, t_temp);
-
     int t = stoi(ltrim(rtrim(t_temp)));
 
     for (int t_itr = 0; t_itr < t; t_itr++) {
